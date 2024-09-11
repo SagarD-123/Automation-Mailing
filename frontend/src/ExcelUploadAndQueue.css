@@ -1,0 +1,233 @@
+.excel-upload-page {
+    font-family: var(--font-family, Arial, sans-serif);
+    color: var(--text-color, #333);
+    padding: 20px;
+}
+
+.excel-upload-page .excel-upload-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.excel-upload-page h2 {
+    color: var(--text-color, #333);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.excel-upload-page .form-group {
+    margin-bottom: 25px;
+}
+
+.excel-upload-page label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.excel-upload-page input[type="file"],
+.excel-upload-page input[type="text"],
+.excel-upload-page input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.excel-upload-page input[type="file"]:focus,
+.excel-upload-page input[type="text"]:focus,
+.excel-upload-page input[type="password"]:focus {
+    border-color: var(--primary-color, #4CAF50);
+    outline: none;
+}
+
+.excel-upload-page .quill {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.excel-upload-page .button-group {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.excel-upload-page button {
+    background-color: var(--primary-color, #4CAF50);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.excel-upload-page button:hover {
+    background-color: #45a049;
+}
+
+.excel-upload-page button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.excel-upload-page .error-message {
+    color: var(--error-color, red);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.excel-upload-page .success-message {
+    color: var(--success-color, green);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.excel-upload-page .password-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.excel-upload-page .password-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.excel-upload-page .password-modal {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 400px;
+    transform: scale(0.9);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.excel-upload-page .password-modal-overlay.active .password-modal {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.excel-upload-page .password-modal h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.excel-upload-page .password-modal input {
+    margin-bottom: 20px;
+}
+
+.excel-upload-page .password-modal button {
+    width: 100%;
+}
+
+.excel-upload-page .password-modal .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.excel-upload-page .password-modal button {
+    width: 48%; 
+}
+
+.excel-upload-page .password-modal .cancel-btn {
+    background-color: #f44336; 
+}
+
+.excel-upload-page .password-modal .cancel-btn:hover {
+    background-color: #d32f2f;
+}
+
+/* table styles */
+
+.excel-data-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.table-container {
+    overflow-x: auto;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.excel-data-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.excel-data-table th,
+.excel-data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.excel-data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.excel-data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.excel-data-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
+    .table-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-input {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

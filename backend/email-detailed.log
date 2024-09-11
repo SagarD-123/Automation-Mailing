@@ -1,0 +1,143 @@
+{"level":"info","message":"HTTP POST /login","timestamp":"2024-08-29T06:08:09.364Z"}
+{"level":"info","message":"HTTP GET /templates","timestamp":"2024-08-29T06:08:11.508Z"}
+{"level":"info","message":"HTTP GET /training-details","timestamp":"2024-08-29T06:08:11.511Z"}
+{"level":"info","message":"HTTP GET /templates","timestamp":"2024-08-29T06:08:11.633Z"}
+{"level":"info","message":"HTTP GET /training-details","timestamp":"2024-08-29T06:08:11.769Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:08:14.560Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:08:14.671Z"}
+{"level":"info","message":"HTTP POST /send-email","timestamp":"2024-08-29T06:09:38.528Z"}
+{"level":"info","mailQueueId":"f749df8b-9b68-4037-b673-522da168b61c","message":"Email job queued successfully:","recipient":"robertcena30@outlook.com","timestamp":"2024-08-29T06:09:38.878Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:09:41.696Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:09:41.702Z"}
+{"level":"info","message":"HTTP GET /templates","timestamp":"2024-08-29T06:09:52.135Z"}
+{"level":"info","message":"HTTP GET /training-details","timestamp":"2024-08-29T06:09:52.138Z"}
+{"level":"info","message":"HTTP GET /templates","timestamp":"2024-08-29T06:09:52.139Z"}
+{"level":"info","message":"HTTP GET /training-details","timestamp":"2024-08-29T06:09:52.142Z"}
+{"level":"info","message":"HTTP GET /batches/TR001","timestamp":"2024-08-29T06:09:54.726Z"}
+{"level":"info","message":"HTTP GET /students/TR001/BA002","timestamp":"2024-08-29T06:09:57.210Z"}
+{"level":"info","message":"HTTP GET /templates/TEMP0003","timestamp":"2024-08-29T06:10:00.701Z"}
+{"level":"info","mailQueueId":"f749df8b-9b68-4037-b673-522da168b61c","message":"Mail job added to queue:","timestamp":"2024-08-29T06:10:03.276Z"}
+{"level":"info","message":"Processing email job: f749df8b-9b68-4037-b673-522da168b61c","timestamp":"2024-08-29T06:10:03.283Z"}
+{"level":"info","message":"Attempting to send email to robertcena30@outlook.com. Attempt 1 of 3","timestamp":"2024-08-29T06:10:03.284Z"}
+{"commonAttachments":[],"individualAttachments":[],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:10:03.294Z"}
+{"level":"info","mailQueueId":"f749df8b-9b68-4037-b673-522da168b61c","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:10:03.334Z"}
+{"level":"info","message":"Email sent successfully to robertcena30@outlook.com. Message ID: <01651b90-fb73-6e6a-f940-bd20333a8268@gmail.com>","timestamp":"2024-08-29T06:10:06.330Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: f749df8b-9b68-4037-b673-522da168b61c","timestamp":"2024-08-29T06:10:06.371Z"}
+{"level":"info","message":"HTTP GET /students/TR001/BA002","timestamp":"2024-08-29T06:10:10.883Z"}
+{"level":"info","message":"HTTP POST /send-email","timestamp":"2024-08-29T06:10:10.890Z"}
+{"level":"info","mailQueueId":"10bbfe9e-ac6c-471b-9137-abcf9f62ed12","message":"Email job queued successfully:","recipient":"priyankasethi077@gmail.com","timestamp":"2024-08-29T06:10:10.971Z"}
+{"level":"info","mailQueueId":"ec93911b-8e24-49fb-84ad-36fe1ebd43ea","message":"Email job queued successfully:","recipient":"sagardevredemo@gmail.com","timestamp":"2024-08-29T06:10:11.004Z"}
+{"level":"info","mailQueueId":"524d33b2-3269-4ff7-9f0c-f9ba5bbe25fa","message":"Email job queued successfully:","recipient":"robertcena30@gmail.com","timestamp":"2024-08-29T06:10:11.046Z"}
+{"level":"info","message":"HTTP POST /queue-excel-emails","timestamp":"2024-08-29T06:10:29.503Z"}
+{"level":"info","mailQueueId":"8f8829d1-edc2-4669-8251-8cea6d0ed9c4","message":"Email job queued successfully:","recipient":"robertcena30@outlook.com","timestamp":"2024-08-29T06:10:29.553Z"}
+{"level":"info","mailQueueId":"8a4cf128-3df5-420d-ac32-81d6d8fc507f","message":"Email job queued successfully:","recipient":"priyankasethi077@gmail.com","timestamp":"2024-08-29T06:10:29.595Z"}
+{"level":"info","mailQueueId":"df86957c-8da1-4061-af29-2af651fa2450","message":"Email job queued successfully:","recipient":"seasawthat@gmail.com","timestamp":"2024-08-29T06:10:29.665Z"}
+{"level":"info","mailQueueId":"8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","message":"Email job queued successfully:","recipient":"kamladevre7440@gmail.com","timestamp":"2024-08-29T06:10:29.731Z"}
+{"level":"info","mailQueueId":"d0ef3170-e1c2-4f36-8161-49623ba1f983","message":"Email job queued successfully:","recipient":"sagardevredemo@gmail.com","timestamp":"2024-08-29T06:10:29.803Z"}
+{"level":"info","mailQueueId":"1bcb5501-81ec-4e29-8682-582e13c4df25","message":"Email job queued successfully:","recipient":"robertcena30@gmail.com","timestamp":"2024-08-29T06:10:29.856Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:10:39.270Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:10:39.276Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:10:47.662Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:01.237Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:02.099Z"}
+{"level":"info","mailQueueId":"10bbfe9e-ac6c-471b-9137-abcf9f62ed12","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.223Z"}
+{"level":"info","message":"Processing email job: 10bbfe9e-ac6c-471b-9137-abcf9f62ed12","timestamp":"2024-08-29T06:11:03.227Z"}
+{"level":"info","message":"Attempting to send email to priyankasethi077@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:11:03.228Z"}
+{"commonAttachments":[],"individualAttachments":[],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:11:03.230Z"}
+{"level":"info","mailQueueId":"10bbfe9e-ac6c-471b-9137-abcf9f62ed12","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.270Z"}
+{"level":"info","mailQueueId":"1bcb5501-81ec-4e29-8682-582e13c4df25","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.273Z"}
+{"level":"info","mailQueueId":"1bcb5501-81ec-4e29-8682-582e13c4df25","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.308Z"}
+{"level":"info","mailQueueId":"524d33b2-3269-4ff7-9f0c-f9ba5bbe25fa","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.311Z"}
+{"level":"info","mailQueueId":"524d33b2-3269-4ff7-9f0c-f9ba5bbe25fa","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.358Z"}
+{"level":"info","mailQueueId":"8a4cf128-3df5-420d-ac32-81d6d8fc507f","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.361Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:03.395Z"}
+{"level":"info","mailQueueId":"8a4cf128-3df5-420d-ac32-81d6d8fc507f","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.401Z"}
+{"level":"info","mailQueueId":"8f8829d1-edc2-4669-8251-8cea6d0ed9c4","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.405Z"}
+{"level":"info","mailQueueId":"8f8829d1-edc2-4669-8251-8cea6d0ed9c4","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.574Z"}
+{"level":"info","mailQueueId":"8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.577Z"}
+{"level":"info","mailQueueId":"8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.651Z"}
+{"level":"info","mailQueueId":"d0ef3170-e1c2-4f36-8161-49623ba1f983","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.654Z"}
+{"level":"info","mailQueueId":"d0ef3170-e1c2-4f36-8161-49623ba1f983","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.693Z"}
+{"level":"info","mailQueueId":"df86957c-8da1-4061-af29-2af651fa2450","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.696Z"}
+{"level":"info","mailQueueId":"df86957c-8da1-4061-af29-2af651fa2450","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.743Z"}
+{"level":"info","mailQueueId":"ec93911b-8e24-49fb-84ad-36fe1ebd43ea","message":"Mail job added to queue:","timestamp":"2024-08-29T06:11:03.746Z"}
+{"level":"info","mailQueueId":"ec93911b-8e24-49fb-84ad-36fe1ebd43ea","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:11:03.776Z"}
+{"level":"info","message":"Email sent successfully to priyankasethi077@gmail.com. Message ID: <7641a3e9-3b79-9159-445f-b4a7a2a9bfcf@gmail.com>","timestamp":"2024-08-29T06:11:05.762Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: 10bbfe9e-ac6c-471b-9137-abcf9f62ed12","timestamp":"2024-08-29T06:11:05.802Z"}
+{"level":"info","message":"Processing email job: 1bcb5501-81ec-4e29-8682-582e13c4df25","timestamp":"2024-08-29T06:11:05.805Z"}
+{"level":"info","message":"Attempting to send email to robertcena30@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:11:05.807Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\1355115.jpeg"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:11:05.808Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:12.982Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:23.653Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:25.827Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:26.651Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:27.539Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:28.083Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:28.491Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:11:28.716Z"}
+{"level":"info","message":"Email sent successfully to robertcena30@gmail.com. Message ID: <7961b0f7-5004-0cab-3cb5-b6dd27279319@gmail.com>","timestamp":"2024-08-29T06:11:50.239Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: 1bcb5501-81ec-4e29-8682-582e13c4df25","timestamp":"2024-08-29T06:11:50.278Z"}
+{"level":"info","message":"Processing email job: 524d33b2-3269-4ff7-9f0c-f9ba5bbe25fa","timestamp":"2024-08-29T06:11:50.281Z"}
+{"level":"info","message":"Attempting to send email to robertcena30@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:11:50.282Z"}
+{"commonAttachments":[],"individualAttachments":[],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:11:50.284Z"}
+{"level":"info","message":"Email sent successfully to robertcena30@gmail.com. Message ID: <dae08a3d-143a-ccb8-7c92-d183f62bb6ec@gmail.com>","timestamp":"2024-08-29T06:11:52.851Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: 524d33b2-3269-4ff7-9f0c-f9ba5bbe25fa","timestamp":"2024-08-29T06:11:52.887Z"}
+{"level":"info","message":"Processing email job: 8a4cf128-3df5-420d-ac32-81d6d8fc507f","timestamp":"2024-08-29T06:11:52.890Z"}
+{"level":"info","message":"Attempting to send email to priyankasethi077@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:11:52.891Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\profile.jpg"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:11:52.893Z"}
+{"level":"info","message":"Email sent successfully to priyankasethi077@gmail.com. Message ID: <5f55842e-9b30-fac3-0087-057c9f55ed77@gmail.com>","timestamp":"2024-08-29T06:11:56.564Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: 8a4cf128-3df5-420d-ac32-81d6d8fc507f","timestamp":"2024-08-29T06:11:56.597Z"}
+{"level":"info","message":"Processing email job: 8f8829d1-edc2-4669-8251-8cea6d0ed9c4","timestamp":"2024-08-29T06:11:56.600Z"}
+{"level":"info","message":"Attempting to send email to robertcena30@outlook.com. Attempt 1 of 3","timestamp":"2024-08-29T06:11:56.600Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\profile.png"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:11:56.603Z"}
+{"level":"info","message":"Email sent successfully to robertcena30@outlook.com. Message ID: <cf7f6926-3834-0294-e323-7d8bf5cce1bd@gmail.com>","timestamp":"2024-08-29T06:11:59.305Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: 8f8829d1-edc2-4669-8251-8cea6d0ed9c4","timestamp":"2024-08-29T06:11:59.365Z"}
+{"level":"info","message":"Processing email job: 8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","timestamp":"2024-08-29T06:11:59.368Z"}
+{"level":"info","message":"Attempting to send email to kamladevre7440@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:11:59.368Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\987807.png"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:11:59.370Z"}
+{"level":"info","mailQueueId":"8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","message":"Mail job added to queue:","timestamp":"2024-08-29T06:12:03.225Z"}
+{"level":"info","mailQueueId":"8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:12:03.265Z"}
+{"level":"info","mailQueueId":"d0ef3170-e1c2-4f36-8161-49623ba1f983","message":"Mail job added to queue:","timestamp":"2024-08-29T06:12:03.267Z"}
+{"level":"info","mailQueueId":"d0ef3170-e1c2-4f36-8161-49623ba1f983","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:12:03.308Z"}
+{"level":"info","mailQueueId":"df86957c-8da1-4061-af29-2af651fa2450","message":"Mail job added to queue:","timestamp":"2024-08-29T06:12:03.311Z"}
+{"level":"info","mailQueueId":"df86957c-8da1-4061-af29-2af651fa2450","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:12:03.350Z"}
+{"level":"info","mailQueueId":"ec93911b-8e24-49fb-84ad-36fe1ebd43ea","message":"Mail job added to queue:","timestamp":"2024-08-29T06:12:03.351Z"}
+{"level":"info","mailQueueId":"ec93911b-8e24-49fb-84ad-36fe1ebd43ea","message":"Updated processed date for mail queue job:","timestamp":"2024-08-29T06:12:03.432Z"}
+{"level":"info","message":"Email sent successfully to kamladevre7440@gmail.com. Message ID: <94d1b6ec-224b-08da-a8bc-6722d182855d@gmail.com>","timestamp":"2024-08-29T06:12:10.113Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: 8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","timestamp":"2024-08-29T06:12:10.203Z"}
+{"level":"info","message":"Processing email job: d0ef3170-e1c2-4f36-8161-49623ba1f983","timestamp":"2024-08-29T06:12:10.206Z"}
+{"level":"info","message":"Attempting to send email to sagardevredemo@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:12:10.207Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\WhatsApp Image 2024-07-24 at 5.40.16 PM.jpeg"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:12:10.208Z"}
+{"level":"info","message":"Email sent successfully to sagardevredemo@gmail.com. Message ID: <0b349c24-1160-3886-c8b7-a2cb84dc9e6d@gmail.com>","timestamp":"2024-08-29T06:12:13.376Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: d0ef3170-e1c2-4f36-8161-49623ba1f983","timestamp":"2024-08-29T06:12:13.421Z"}
+{"level":"info","message":"Processing email job: df86957c-8da1-4061-af29-2af651fa2450","timestamp":"2024-08-29T06:12:13.424Z"}
+{"level":"info","message":"Attempting to send email to seasawthat@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:12:13.425Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\1360757.png"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:12:13.426Z"}
+{"level":"info","message":"Email sent successfully to seasawthat@gmail.com. Message ID: <ac322b7a-cf10-1c22-e2f3-c141de8fe76b@gmail.com>","timestamp":"2024-08-29T06:12:22.193Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: df86957c-8da1-4061-af29-2af651fa2450","timestamp":"2024-08-29T06:12:22.241Z"}
+{"level":"info","message":"Processing email job: ec93911b-8e24-49fb-84ad-36fe1ebd43ea","timestamp":"2024-08-29T06:12:22.245Z"}
+{"level":"info","message":"Attempting to send email to sagardevredemo@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:12:22.246Z"}
+{"commonAttachments":[],"individualAttachments":[],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:12:22.247Z"}
+{"level":"info","message":"Email sent successfully to sagardevredemo@gmail.com. Message ID: <49e9e542-b69b-d704-e830-cb2e0aa3d544@gmail.com>","timestamp":"2024-08-29T06:12:25.389Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: ec93911b-8e24-49fb-84ad-36fe1ebd43ea","timestamp":"2024-08-29T06:12:25.434Z"}
+{"level":"info","message":"Processing email job: 8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","timestamp":"2024-08-29T06:12:25.436Z"}
+{"level":"info","message":"Attempting to send email to kamladevre7440@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:12:25.436Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\987807.png"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:12:25.437Z"}
+{"level":"info","message":"Email sent successfully to kamladevre7440@gmail.com. Message ID: <f6e948e2-2371-4f0e-456f-a679dd2e1462@gmail.com>","timestamp":"2024-08-29T06:12:36.454Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: 8ff58c7f-4b80-4c1a-97c9-a7c0f6dd4b56","timestamp":"2024-08-29T06:12:36.457Z"}
+{"level":"info","message":"Processing email job: d0ef3170-e1c2-4f36-8161-49623ba1f983","timestamp":"2024-08-29T06:12:36.460Z"}
+{"level":"info","message":"Attempting to send email to sagardevredemo@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:12:36.461Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\WhatsApp Image 2024-07-24 at 5.40.16 PM.jpeg"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:12:36.463Z"}
+{"level":"info","message":"Email sent successfully to sagardevredemo@gmail.com. Message ID: <7849640e-9f42-0c9e-427f-0a669d41eea2@gmail.com>","timestamp":"2024-08-29T06:12:39.502Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: d0ef3170-e1c2-4f36-8161-49623ba1f983","timestamp":"2024-08-29T06:12:39.505Z"}
+{"level":"info","message":"Processing email job: df86957c-8da1-4061-af29-2af651fa2450","timestamp":"2024-08-29T06:12:39.507Z"}
+{"level":"info","message":"Attempting to send email to seasawthat@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:12:39.508Z"}
+{"commonAttachments":[],"individualAttachments":[{"path":"C:\\Users\\corporate\\Downloads\\1360757.png"}],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:12:39.510Z"}
+{"level":"info","message":"Email sent successfully to seasawthat@gmail.com. Message ID: <fdd2fb56-f752-4b12-fd08-1d0afa34a959@gmail.com>","timestamp":"2024-08-29T06:12:48.299Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: df86957c-8da1-4061-af29-2af651fa2450","timestamp":"2024-08-29T06:12:48.301Z"}
+{"level":"info","message":"Processing email job: ec93911b-8e24-49fb-84ad-36fe1ebd43ea","timestamp":"2024-08-29T06:12:48.304Z"}
+{"level":"info","message":"Attempting to send email to sagardevredemo@gmail.com. Attempt 1 of 3","timestamp":"2024-08-29T06:12:48.305Z"}
+{"commonAttachments":[],"individualAttachments":[],"level":"info","message":"Sending email with attachments:","timestamp":"2024-08-29T06:12:48.306Z"}
+{"level":"info","message":"Email sent successfully to sagardevredemo@gmail.com. Message ID: <91021cf6-5517-0770-ce4b-01c86c66cd86@gmail.com>","timestamp":"2024-08-29T06:12:50.910Z"}
+{"level":"info","message":"Email sent successfully. Mail queue status updated to sent: ec93911b-8e24-49fb-84ad-36fe1ebd43ea","timestamp":"2024-08-29T06:12:50.913Z"}
+{"level":"info","message":"HTTP GET /mail-queue","timestamp":"2024-08-29T06:13:43.094Z"}
